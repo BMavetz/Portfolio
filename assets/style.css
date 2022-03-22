@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(252, 243, 231);
+}
+header{
+    background-image: url("../assets/images/portfolio-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color:azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header nav{
+    float: right;
+    margin-right: 20px;
+}
+.header nav ul li{
+    display: inline-block;
+    margin-left:25px;
+
+}
+
+a{
+    color: azure;
+    text-decoration: none
+}
+
+.aboutMe {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+footer ul li{
+    display: inline-block;
+    margin-left:25px;
+}
