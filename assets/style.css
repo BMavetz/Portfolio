@@ -12,17 +12,24 @@ header{
     color:azure;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.header h1{
+    display: inline-block;
+}
 
 .header nav{
     float: right;
     margin-right: 20px;
+    padding-top: 15px;
 }
 .header nav ul li{
     display: inline-block;
-    margin-left:25px;
+    margin-right: 20px;
 
 }
-
+.bradyPic {
+    height: 150px;
+    display: block;
+}
 a{
     color: azure;
     text-decoration: none
@@ -34,7 +41,7 @@ a{
 }
 
 
-footer ul li{
+/* footer ul li{
     display: inline-block;
     margin-left:25px;
-}
+} */
