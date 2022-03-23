@@ -128,3 +128,8 @@ a{
 #contactMe ul li{
     display: inline-block;
     margin-right: 20px;
+    color: black;
+}
+#contactMe ul li a{
+    color: black;
+}
