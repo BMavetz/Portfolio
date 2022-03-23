@@ -37,11 +37,21 @@ a{
 
 .aboutMe {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+}
+.aboutMe aside{
+    flex: 1;
+    padding: 10px;
+    margin: 10px 0px;
+    text-align: right;
+    position: relative;
+    right: -10px;
+    border-right: 2px solid darkblue;
+}
+.aboutMe div{
+    padding-left: 20px;
 }
 
-
-/* footer ul li{
+#contactMe ul li{
     display: inline-block;
-    margin-left:25px;
-} */
+    margin-right: 20px;
