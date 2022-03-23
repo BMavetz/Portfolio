@@ -52,6 +52,79 @@ a{
     padding-left: 20px;
 }
 
+#Work {
+    display: flex;
+    flex-direction: row;
+}
+#Work aside {
+    padding-right: 35px;
+    border-right: solid 2px darkblue;
+}
+#Work .projects {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.projects a {
+    background-color: lightblue;
+    padding: 2px;
+    color: black;
+}
+
+#Work .projects .projBig{
+    flex: 100%;
+    border: solid darkblue 1px;
+    height: 200px;
+    margin: 5px;
+}  
+#Work .projects .projSmall{
+    flex: 48%;
+    border: solid darkblue 1px;
+    height: 200px;
+    margin: 5px;
+}
+#proj1 {
+    background-image: url("../assets/images/code_screen.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+#proj2 {
+    background-image: url("../assets/images/computer_lab_image.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#proj3 {
+    background-image: url("../assets/images/puzzle_image.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#proj4 {
+    background-image: url("../assets/images/waves_wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#proj5 {
+    background-image: url("../assets/images/LED_wall.jfif");
+    background-size: cover;
+    background-position: center;
+}
+#contactMe{
+    display: flex;
+    flex-direction: row;
+}
+#contactMe aside{
+    padding: 10px;
+    margin: 10px 0px;
+    text-align: right;
+    position: relative;
+    left: -3%;
+    border-right: 2px solid darkblue;
+}
+#contactMe div {
+    flex: 100%;
+    text-align: center;
+    padding-top: 45px;
+}
 #contactMe ul li{
     display: inline-block;
     margin-right: 20px;
